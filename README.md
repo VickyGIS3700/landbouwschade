@@ -1,8 +1,6 @@
-# landbouwschade
-een applicatie voor steden en gemeenten om de landbouwschadedossiers te helpen verwerken
-LandBouwSchade-app 
+# LandBouwSchade-app 
+een applicatie voor steden en gemeenten om de landbouwschadedossiers te helpen verwerken<br>
 
-Deze beschrijving en data resulteren in een applicatie voor die steden en gemeenten helpt om de landbouwschadedossiers te verwerken.
 
 GIS-SOFTWARE (FOSS)<br>
 Qgis 2.18 - longtime release https://qgis.org/en/site/forusers/download.html<br>
