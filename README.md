@@ -13,18 +13,18 @@ zoomtoCoordinaat > https://plugins.qgis.org/plugins/zoomtocoordinates/
 geopunt-plugin > http://www.geopunt.be/voor-experts/geopunt-plug-ins/qgis-plugin
 
 VOORBEREIDINGSPROJECT IN QGIS2.18<br>
-landbouwschadesjabloon 
+landbouwschadesjabloon:  
 In shape formaat  te downloaden. Een voorbeeld van Tongeren. Geschikte attributentabel. Joinen met percelenkaart van je gemeente ( adp van grb). https://download.agiv.be/Producten/Detail?id=386&title=GRB_Adp_administratief_perceel
 
 Voor het maken van keuze tabellen verwijs ik naar https://docs.qgis.org/2.8/en/docs/training_manual/create_vector_data/forms.html
 
-landbouwgebruikersperceel
+landbouwgebruikersperceel: 
 Bundeling van de datasets die een overzicht geven van de percelen die in landbouwgebruik zijn op de uiterste indieningsdatum van de verzamelaanvraag van een bepaald jaar. (download shape via https://download.agiv.be/Catalogus)
 
-potentiële bodemerosiekaart
+potentiële bodemerosiekaart: 
 De potentiële bodemerosiekaart per perceel (2018) geeft aan de hand van een klasse-indeling de totale potentiële erosie van een bepaald landbouwperceel weer. (via WFS https://www.dov.vlaanderen.be/geoserver/wfs?)
 
-Orthofoto recent
+Orthofoto recent: 
 WMS die de compilatie weergeeft van de meest recente orthofotowerkbestanden voor Vlaanderen |  wintervluchten (https://geoservices.informatievlaanderen.be/raadpleegdiensten/OMWRGBMRVL/wms?)
 
 Beelden van de satelliet sentinel2
@@ -32,20 +32,20 @@ aardobservatiebeelden tijdstip van ‘ramp’
 (Copernicus Services Data Hub https://cophub.copernicus.eu/dhus/#/home)
 
 PROJECT ROUTE IN QGIS 3.2<br>
-lagen
+lagen: 
 de ingevulde landbouwschade-sjabloon
 wegenregister van je gemeente > http://www.geopunt.be/catalogus/datasetfolder/088ca437-78f0-47c0-a851-23c04881d489
 
-model
+model: 
  QGIS3-LB.model3  voor het berekenen van de geschikte route
 
 QFIELD (FOSS)<br>
-QFieldSync plugin 
+QFieldSync plugin: 
 Via de QFieldSync plugin in QGIS worden de data voorbereid.
 Download: https://plugins.qgis.org/plugins/qfieldsync/ 
 Uitleg: https://www.qfield.org/docs/qfieldsync/index.html
 
-filmpjes implementatie
+filmpjes implementatie: 
 kort: https://www.youtube.com/watch?v=cneYK3Y5ees
 uitgebreid: https://www.youtube.com/watch?v=rX3oyTCygew
 Via een usb-stick kunnen ze gevisualiseerd worden.
@@ -55,7 +55,7 @@ Op een tablet kan de QField-app worden gedownload > https://play.google.com/stor
 
 Systeem tablet: Android, liefst met data-abonnement zodat er onderweg mogelijkheid is tot ontvangst.
 
-ARCMAP | ARCGISONLINE (BETALEND)
+ARCMAP | ARCGISONLINE (BETALEND)<br>
 De landbouwschade.gdb bevat een  een feature class en de toolbox met het landbouwmodel.
 
 COLLECTOR<br>
