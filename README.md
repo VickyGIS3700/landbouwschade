@@ -41,7 +41,7 @@ QFIELD (FOSS)<br>
 QFieldSync plugin: <br>
 Via de QFieldSync plugin in QGIS worden de data voorbereid.<br>
 Download: https://plugins.qgis.org/plugins/qfieldsync/ <br>
-Uitleg: https://www.qfield.org/docs/qfieldsync/index.html<br>
+Uitleg: http://www.qfield.org/docs/nl/<br>
 
 filmpjes implementatie: <br>
 kort: https://www.youtube.com/watch?v=cneYK3Y5ees<br>
@@ -65,4 +65,10 @@ Na het verzamelen van de dat op terrain, kan je een csv-file downloaden als je m
 
 KOPPELING  COMPENSATIE<br>
 Je vindt in de map ook een exceltabel terug waarin je je gecollecteerde data kan koppelen.<br>
+
+Met dank aan de vele medewerkers van QGIS en QFIELD<br>
+QGIS ontwikkelingsinspanningen: https://www.openhub.net/p/qgis<br>
+Ontwikkelaars https://www.openhub.net/p/qgis/contributors?sort=latest_commit<br>
+Behalve de ontwikkelaars zijn er vele anderen betrokken bij het project QGIS. https://qgis.org/en/site/getinvolved/governance/governance.html<br>
+http://www.opengis.ch/about/<br>
 
