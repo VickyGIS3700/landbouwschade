@@ -29,7 +29,7 @@ Beelden van de satelliet sentinel2<br>
 aardobservatiebeelden tijdstip van ‘ramp’ <br>
 Copernicus Services Data Hub > https://cophub.copernicus.eu/dhus/#/home <br>
 
-SATELLIETBEELDEN REKENMODEL
+SATELLIETBEELDEN BEREKENEN <br>
 Als hulpmiddel bij het verwerken van landbouwschade willen we via satellietbeelden berekenen hoeveel schade ( verlies aan chlorofyl) er aan het gewas is.
 Volg de stappen in de PDF satellietbeelden rekenmodel: model, pythonscript en layersetting kan je mee downloaden
 
