@@ -1,42 +1,43 @@
 # LandBouwSchade-app 
 een applicatie voor steden en gemeenten om de landbouwschadedossiers te helpen verwerken<br>
+ideaal voor de controle onderweg <br>
 Gebruik het stappenplan.
 
 GIS-SOFTWARE (FOSS)<br>
-Qgis 2.18 - longtime release https://qgis.org/en/site/forusers/download.html<br>
-Qgis 3.2 – latest release https://qgis.org/en/site/forusers/download.html<br>
+Qgis 3.4 https://www.qgis.org/nl/site/forusers/download.html <br>
 
-PLUGINS VOOR QGIS2.18<br>
-zoomtoCoordinaat > https://plugins.qgis.org/plugins/zoomtocoordinates/<br>
+PLUGINS VOOR QGIS3.4
+lat lon tools > https://plugins.qgis.org/plugins/latlontools/ <br>
 geopunt-plugin > http://www.geopunt.be/voor-experts/geopunt-plug-ins/qgis-plugin<br>
+QField Sync >https://plugins.qgis.org/plugins/qfieldsync/<br>
 
 VOORBEREIDINGSPROJECT IN QGIS2.18<br>
 landbouwschadesjabloon:  <br>
-In shape formaat  te downloaden. Een voorbeeld van Tongeren. Geschikte attributentabel. Joinen met percelenkaart van je gemeente ( adp van grb). https://download.agiv.be/Producten/Detail?id=386&title=GRB_Adp_administratief_perceel<br>
+In shape formaat  te downloaden. Een voorbeeld van Tongeren. Geschikte attributentabel. Percelenkaart van je gemeente ( adp van grb). https://download.agiv.be/Producten/Detail?id=386&title=GRB_Adp_administratief_perceel<br>
 
 Voor het maken van keuze tabellen verwijs ik naar https://docs.qgis.org/2.8/en/docs/training_manual/create_vector_data/forms.html<br>
 
-landbouwgebruikersperceel: <br>
+landbouwgebruikersperceel: ( eventueel)<br>
 Bundeling van de datasets die een overzicht geven van de percelen die in landbouwgebruik zijn op de uiterste indieningsdatum van de verzamelaanvraag van een bepaald jaar. (download shape via https://download.agiv.be/Catalogus)<br>
 
-potentiële bodemerosiekaart: <br>
+potentiële bodemerosiekaart: ( eventueel)<br>
 De potentiële bodemerosiekaart per perceel (2018) geeft aan de hand van een klasse-indeling de totale potentiële erosie van een bepaald landbouwperceel weer. >  WFS https://www.dov.vlaanderen.be/geoserver/wfs?<br>
 
 Orthofoto recent: <br>
 WMS die de compilatie weergeeft van de meest recente orthofotowerkbestanden voor Vlaanderen |  wintervluchten https://geoservices.informatievlaanderen.be/raadpleegdiensten/OMWRGBMRVL/wms?<br>
 
-Beelden van de satelliet sentinel2<br>
+Beelden van de satelliet sentinel2: ( eventueel)<br>
 aardobservatiebeelden tijdstip van ‘ramp’ <br>
 Copernicus Services Data Hub > https://cophub.copernicus.eu/dhus/#/home <br>
 
-SATELLIETBEELDEN BEREKENEN <br>
+SATELLIETBEELDEN BEREKENEN: ( eventueel)<br>
 Als hulpmiddel bij het verwerken van landbouwschade willen we via satellietbeelden berekenen hoeveel schade ( verlies aan chlorofyl) er aan het gewas is.
 Volg de stappen in de PDF satellietbeelden rekenmodel: model, pythonscript en layersetting kan je mee downloaden
 
-PROJECT ROUTE IN QGIS 3.2<br>
+PROJECT ROUTE IN QGIS 3.4<br>
 lagen: <br>
 de ingevulde landbouwschade-sjabloon<br>
-wegenregister van je gemeente > http://www.geopunt.be/catalogus/datasetfolder/088ca437-78f0-47c0-a851-23c04881d489<br>
+wegenregister (WVB wegverbinding) van je gemeente > http://www.geopunt.be/catalogus/datasetfolder/088ca437-78f0-47c0-a851-23c04881d489<br>
 
 model: <br>
 QGIS3-LB.model3  voor het berekenen van de geschikte route <br>
