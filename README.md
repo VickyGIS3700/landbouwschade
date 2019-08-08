@@ -13,7 +13,7 @@ QField Sync >https://plugins.qgis.org/plugins/qfieldsync/<br>
 
 VOORBEREIDINGSPROJECT IN QGIS2.18<br>
 landbouwschadesjabloon:  <br>
-In shape formaat  te downloaden. Een voorbeeld van Tongeren. Geschikte attributentabel. Percelenkaart van je gemeente ( adp van grb). https://download.agiv.be/Producten/Detail?id=386&title=GRB_Adp_administratief_perceel<br>
+In shape formaat  te downloaden. Een voorbeeld van Tongeren. Geschikte attributentabel. Percelenkaart van je gemeente ( adp van grb). https://download.vlaanderen.be/ <br>
 
 Voor het maken van keuze tabellen verwijs ik naar https://docs.qgis.org/2.8/en/docs/training_manual/create_vector_data/forms.html<br>
 
@@ -37,7 +37,7 @@ Volg de stappen in de PDF satellietbeelden rekenmodel: model, pythonscript en la
 PROJECT ROUTE IN QGIS 3.4<br>
 lagen: <br>
 de ingevulde landbouwschade-sjabloon<br>
-wegenregister (WVB wegverbinding) van je gemeente > http://www.geopunt.be/catalogus/datasetfolder/088ca437-78f0-47c0-a851-23c04881d489<br>
+wegenregister (WVB wegverbinding) van je gemeente > https://download.vlaanderen.be/ <br>
 
 model: <br>
 QGIS3-LB.model3  voor het berekenen van de geschikte route <br>
