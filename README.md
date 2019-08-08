@@ -6,7 +6,7 @@ Gebruik het stappenplan.
 GIS-SOFTWARE (FOSS)<br>
 Qgis 3.4 https://www.qgis.org/nl/site/forusers/download.html <br>
 
-PLUGINS VOOR QGIS3.4
+PLUGINS VOOR QGIS3.4 <br>
 lat lon tools > https://plugins.qgis.org/plugins/latlontools/ <br>
 geopunt-plugin > http://www.geopunt.be/voor-experts/geopunt-plug-ins/qgis-plugin<br>
 QField Sync >https://plugins.qgis.org/plugins/qfieldsync/<br>
